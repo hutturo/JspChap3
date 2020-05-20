@@ -10,7 +10,7 @@
     <%
         // 변수 선언
         int su1 = 55;
-        int su2 = 0;
+        int su2 = 10;
         int mok = 0;
 
         try {

@@ -5,7 +5,7 @@
     <title>for 반복문(sum_for.jsp)</title>
 </head>
 <body>
-    <b>정수 합(for 반복문)</b>
+    <b>정수 합(for 반복문)</b><Br>
 
     <%
         // 변수 선언

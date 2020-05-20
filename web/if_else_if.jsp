@@ -5,11 +5,11 @@
     <title>선택문 if_else_if(if_else_if.jsp)</title>
 </head>
 <body>
-    <b>선택문 if_else_if</b>
+    <b>선택문 if_else_if</b><Br>
 
     <%
         // 변수 선언
-        int jumsu = 91;
+        int jumsu = 191;
         String hakjum = "";
 
         if ((jumsu <= 100) && (jumsu >= 90)) {
