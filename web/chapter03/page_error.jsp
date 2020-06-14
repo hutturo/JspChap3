@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isErrorPage= "true" %> <%--오류 페이지인지 여부 설정 --%>
-<%@ page errorPage="./page_error_handler.jsp" %> <%-- 오류 발생 경우 출력 페이지 지정 --%>
+<%@ page errorPage="page_error_handler.jsp" %> <%-- 오류 발생 경우 출력 페이지 지정 --%>
 <html>
 <head>
     <meta charset="UTF-8">

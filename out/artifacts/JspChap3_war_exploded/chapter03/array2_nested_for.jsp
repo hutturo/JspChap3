@@ -17,24 +17,21 @@
 
         // 성적처리 - 학생별 총점, 평균 계산
         for (int jul = 0; jul < 2; jul++) {
-
             for (int kan = 0; kan < 3; kan++) {
                 total[jul] = total[jul] + jumsu[jul][kan];
             }
             average[jul] = total[jul] / 3;
-
         }
 
         // 성적처리 결과 출력 - 학생별 점수, 총점, 평균
         for (int jul = 0; jul < 2; jul++) {
-
             for (int kan = 0; kan < 3; kan++) {
     %>
             <%= jumsu[jul][kan] %>&nbsp;&nbsp;&nbsp;
     <%
             }
     %>
-        <%= total %>&nbsp;&nbsp;&nbsp;&nbsp;<%= average[jul] %><Br>
+        <%= total[jul] %>&nbsp;&nbsp;&nbsp;&nbsp;<%= average[jul] %><Br>
     <%
         }
     %>

@@ -1,6 +1,7 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.time.LocalDateTime" %>
 <%@ page import="java.time.format.DateTimeFormatter" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>날짜와 시간(localdatetime_format.jsp)</title>

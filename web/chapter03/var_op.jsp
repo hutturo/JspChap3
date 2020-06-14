@@ -28,8 +28,6 @@
     %>
 
     <!-- 표현식(expression) -->
-    <%= su1 %><Br>
-    <%= su2 %><Br>
-    연산 결과 = <%= result %>
+    연산 결과 : <%= su1 %> + <%= su2 %> = <%= result %>
 </body>
 </html>

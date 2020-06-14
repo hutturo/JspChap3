@@ -5,7 +5,7 @@
     <title>선택문 if_else(find_max.jsp)</title>
 </head>
 <body>
-    <b>큰 수 찾기</b><Br>\
+    <b>큰 수 찾기</b><Br>
 
     <%
         // 변수 선언
